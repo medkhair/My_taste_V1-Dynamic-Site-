@@ -1,0 +1,266 @@
+body{
+	font-family: 'Metal Mania', sans-serif;
+	background-color: #fff;
+}
+nav .index{
+	font-family: 'Leckerli One', sans-serif;
+	text-align: center;
+	font-size: 60px;
+	color: #ED0AAD;
+}
+.index:hover{
+	color: #ED0AAD;
+}
+nav{
+	height: 156px;
+	border-bottom: 1px solid #867B7B;
+	background-color: #fff;
+}
+nav .form-control{
+	width: 270px;
+	height: 41px;
+	border-radius: 8px;
+	position: relative;
+	left: 10%;
+}
+nav ul{
+	font-size: 20px;
+}
+nav ul li{
+	margin-right: 20px;
+}
+#content{
+	margin-right: 70px;
+	margin-left: 70px;
+}
+#content section{
+	margin-top: 45px;
+}
+.sec .row{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#short{
+	height: 0px;
+	border-bottom: 1px solid #867B7B;
+	margin-top: 20px;
+	width: 463px;
+}
+#long{
+	height: 0px;
+	border-bottom: 1px solid #867B7B;
+	margin-top: 45px;
+}
+.line h1,h2{
+	margin-bottom: 20px;
+	color: #000;
+}
+.line h1{
+	font-size: 40px;
+}
+.line h2{
+	font-size: 30px;
+}
+.more{
+	width: 172px;
+	height: 42px;
+	text-decoration: none;
+	background-color: #D9D9D9;
+	border: 1px solid #949494;
+	border-radius: 30px;
+}
+.more:hover{
+	background-color: #fff;
+}
+#i1{
+	background-image: url(images/doener.jpg);
+}
+#i2{
+	background-image: url(images/sushi.jpg);
+}
+#i3{
+	background-image: url(images/tajine.jpg);
+}
+#i4{
+	background-image: url(images/vegetarian.jpg);
+}
+#i5{
+	background-image: url(images/moroccan.jpg);
+}
+#i6{
+	background-image: url(images/pizza.jpg);
+}
+#i7{
+	background-image: url(images/crepes.jpg);
+}
+#i8{
+	background-image: url(images/tacos.jpg);
+}
+#i9{
+	background-image: url(images/kabssa.jpg);
+}
+#i10{
+	background-image: url(images/spagetti.jpg);
+}
+#i11{
+	background-image: url(images/kochari.jpg);
+}
+#i12{
+	background-image: url(images/rice-cake.jpg);
+}
+#i13{
+	background-image: url(images/grilled-steak.jpg);
+}
+#i14{
+	background-image: url(images/couscous.jpg);
+}
+
+.plat .img{
+	width: 367px;
+	height: 350px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	border-radius: 30px;
+  	margin-bottom: 5px;
+}
+.plat h2{
+	width: 367px;
+	height: 41px;
+}
+#recipes .plat .img{
+	width: 173px;
+	height: 165px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	border-radius: 30px;
+  	margin-bottom: 5px;
+}
+#recipes .plat h2{
+	width: 173px;
+	height: 40px;
+}
+#cuisines .country .img{
+	width: 173px;
+	height: 123px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	border-radius: 30px;
+  	margin-bottom: 5px;
+}
+#cuisines .country h2{
+	width: 173px;
+	height: 42px;
+}
+#i15{
+	background-image: url(images/japan.jpg);
+}
+#i16{
+	background-image: url(images/italy.jpg);
+}
+#i17{
+	background-image: url(images/ksa.jpg);
+}
+#i18{
+	background-image: url(images/morocco.jpg);
+}
+#i19{
+	background-image: url(images/lebanon.jpg);
+}
+#i20{
+	background-image: url(images/usa.jpg);
+}
+#i21{
+	background-image: url(images/germany.jpg);
+}
+#i22{
+	background-image: url(images/iran.jpg);
+}
+#i23{
+	background-image: url(images/france.jpg);
+}
+#i24{
+	background-image: url(images/china.jpg);
+}
+#i25{
+	background-image: url(images/mexico.jpg);
+}
+#i26{
+	background-image: url(images/dz.jpg);
+}
+#i27{
+	background-image: url(images/uk.jpg);
+}
+#i28{
+	background-image: url(images/rsa.jpg);
+}
+#i29{
+	background-image: url(images/indonesia.jpg);
+}
+#i30{
+	background-image: url(images/senegal.jpg);
+}
+#i31{
+	background-image: url(images/turkey.jpg);
+}
+#i32{
+	background-image: url(images/croatia.jpg);
+}
+#i33{
+	background-image: url(images/Breakfast.jpg);
+}
+#i34{
+	background-image: url(images/Lunch.jpg);
+}
+#i35{
+	background-image: url(images/Dinner.jpg);
+}
+#recipes .recipe .img{
+	width: 270px;
+	height: 226px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	border-radius: 30px;
+  	margin-bottom: 5px;
+}
+#recipes .recipe h2{
+	width: 270px;
+	height: 62px;
+}
+#recipe .pic .img{
+	width: 463px;
+	height: 391px;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	border-radius: 30px;
+  	margin-bottom: 20px;
+  	margin-top: 40px;
+}
+#description{
+	margin-top: 20px;
+}
+.part .line{
+	width: 560px;
+	height: 41px;
+}
+.part .line #short{
+	width: 176px;
+	height: 0px;
+}
+.part .line .title{
+	width: 213px;
+	height: 41px;
+	font-size: 25px;
+}
+.text .paragraphe{
+	width: 560px;
+	font-size: 20px;
+	text-align: center;
+}
+.part{
+	margin-bottom: 40px;
+}
