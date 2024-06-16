@@ -63,6 +63,10 @@
 	  $results->bindParam(':ide', $ide, PDO::PARAM_INT);
 	  $results->execute();
     if (($row = $results->fetch())){
+    		$inst = $row['instructions'];
+    		$inst = str_replace(".", ".</li><li>", $inst);
+    		$inst = substr($inst, 0, -4);
+    		
 			echo '<section class="sec" id="recipe">
 				<div class="line row" id="before">
 					<div class="divider col" id="short"></div>
@@ -119,11 +123,14 @@
 									</div>
 									<div class="paragraphe">
 										<ol align="left">
-											'.$row['instructions'].'
+										<li>
+											'.$inst
+											.'
 										</ol>
 									</div>
 								</div>
-							</div>';}
+							</div>';
+						}
 				?>
 				
 						
